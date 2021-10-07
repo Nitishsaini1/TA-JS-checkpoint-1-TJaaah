@@ -74,8 +74,8 @@ let sum = function (a, b) {
   return a + b;
 };
 
-let pow = (a, b) => {
-  return a ** b;
+let addNumbers = (a, b) => {
+  return a * b;
 };
 
 let sayHello = (name) => `Hello ${name}`;
@@ -102,5 +102,6 @@ Function starting with…
 ```
  1-getName
  2-calcSum
- 3-createSentence
+ 3-createNewSomething
  4-checkAge
+ 5-addNumbers
