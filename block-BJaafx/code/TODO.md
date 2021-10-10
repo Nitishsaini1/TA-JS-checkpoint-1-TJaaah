@@ -21,26 +21,28 @@ while (i < 3) {
 
 3. Write a function named `getEvenSum` that accepts a parameter `max`. Return the sum of all even numbers. The value of max should default to 10.
 ```js
-  let sum = 10;
   function getEvenSum(max = 10){
-    for (int i = 1; i <= 10; i) {
-// Logic for sum of EVEN
-	if (i % 2 == 0) {
-		max = max + i;
-		}
-  }
-  }
+    let sum = 10;
+    for ( let i= 1 ; i<= max ; i++){
+      if (i % 2 ==0 ){
+        sum +=i 
+        }
+         return sum;
+         }
+    }
 ```
 
 4. Write a function named `getOddSum` that accepts a parameter `max`. Return the sum of all odd numbers. The value of max should default to 10.
 ```js 
-let sum = 0; 
-function getOddSum(max = 10){
-   for (let i=0;i < max; i++){ 
-     if(i%2 !== 0)
-     { sum += i; }
-      }
-     console.log(sum); }
+  function getEvenSum(max = 10){
+    let sum = 10;
+    for ( let i= 1 ; i<= max ; i++){
+      if (i % 2 !=0 ){
+        sum +=i 
+        }
+         return sum;
+         }
+    }
 ```
 
 5. Write a function named `getProductOfDigits` that accepts a parameter `num`. It returns the product of all the digits in the number.
